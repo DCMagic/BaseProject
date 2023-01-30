@@ -1,0 +1,62 @@
+//
+//  PrefixHeader.pch
+//  BaseProject
+//
+//  Created by dongchao on 2022/3/21.
+//
+
+#ifdef __OBJC__
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#endif
+
+//#import "BasicColor.h"
+//#import "BasicFont.h"
+#import "UtilsMacros.h"
+
+// Model
+#import "BaseRequestSuccessModel.h"
+#import "BaseRequestFailModel.h"
+
+
+// VC
+//#import "TabBarController.h"
+#import "BaseNavigationViewController.h"
+
+// 用户信息
+#import "PBUser.h"
+#import "PBUserInfo.h"
+
+// Extention
+#import "TTKit.h"
+#import <objc/runtime.h>
+#import "NetworkCode.h"
+#import "ShowSVProgressHUD.h"
+#import "CommonlyUsedMethod.h"
+#import "DateHelper.h"
+#import "BaseNetworkRequest.h"
+#import "SplicingUrl.h"
+#import "GlobalRequestManager.h"
+#import "DCSaveData.h"
+
+#import "PBUser.h"
+#import "PBUserInfo.h"
+
+// 第三方库
+#import <Masonry.h>
+#import <SDWebImage.h>
+#import <IQKeyboardManager.h>
+#import <YYModel.h>
+#import <AFNetworking.h>
+#import <SVProgressHUD.h>
+#import <MJRefresh.h>
+
+#import "BasicFont.h"
+#import "BasicColor.h"
+#import "FunctionalAuthorityCoding.h"
+#endif /* PrefixHeader_pch */

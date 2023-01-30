@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+target 'BaseProject' do
+    pod 'AFNetworking', '~> 3.2.0'
+    pod 'MJRefresh', '~> 3.1.15.3'
+    pod 'SDWebImage'
+    pod 'SVProgressHUD'
+    pod 'IQKeyboardManager', '~> 6.0.0'
+    pod 'Masonry', '~> 1.1.0'
+    pod 'YYText', '~> 1.0.7'
+    pod 'YYModel', '~> 1.0.4'
+    pod 'TZImagePickerController', '~> 3.8.3'
+    pod 'TZImagePreviewController'
+#    pod 'YYKit'
+#    pod 'YYCategories'
+    #pod 'YYCache'
+    #pod 'UMCCommon'
+    #pod 'UMCPush'
+    #pod 'UMCSecurityPlugins'
+    # 微信支付
+    #pod 'WechatOpenSDK'
+    # 集成微信(精简版0.2M)
+    #pod 'UMCShare/Social/ReducedWeChat'
+    # 集成QQ/QZone/TIM(精简版0.5M)
+    #pod 'UMCShare/Social/ReducedQQ'
+    # 集成新浪微博(精简版1M)
+    #pod 'UMCShare/Social/ReducedSina'
+    # 音视频
+    #pod 'KTVHTTPCache', '~> 2.0.0'
+    # 异常上报统计
+    #pod 'Bugly'
+
+    #pod 'PLPlayerKit'
+    
+#    pod 'UICollectionViewLeftAlignedLayout'
+end
